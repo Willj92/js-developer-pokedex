@@ -1,0 +1,374 @@
+
+/*
+
+.about{
+    margin: 0;
+    padding: 0;
+    background-color: #50c890;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.botaoVoltar img{
+    height: 30px;
+    width: 30px;
+    align-items: left;
+    margin: 1rem;
+}
+
+.pokemonSelecionado{
+    color: white;
+
+    font-size: 3rem;
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.pokemonSelecionado .sobrePokemon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pokemonSelecionado .sobrePokemon .nomeTipoPOkemon{
+    display: flex;
+    flex-direction: row;
+    align-self: left;
+}
+
+
+.pokemonSelecionado .sobrePokemon .tiposDoPokemon{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    filter: brightness(0.9);
+    text-align: center;
+    text-transform: capitalize;
+}
+.pokemonSelecionado .sobrePokemon .tiposDoPokemon .tipoPokemon{
+    background-color: #50c890;
+    color: white;
+    padding: 0.25rem .5rem;
+    margin: .25rem .1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+}
+
+
+
+.numeroPokemon{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    align-items: right;
+}
+
+.imagemPokemon {
+    align-self: center;
+}
+
+.imagemPokemon img{
+    height: 13rem;
+    width: 13rem;
+    margin: 1rem;
+}
+
+#aboutPokemon{
+    background-color: rgb(216, 216, 216);
+    border-radius: 2rem;
+    padding: 1rem;
+
+}
+
+
+
+.listaCaracteristicas span{
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+
+
+
+#aboutPokemon .listaCaracteristicas{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-self: flex-end;
+    padding: 1rem;
+    justify-items: baseline;
+}
+
+.listaCaracteristicas p{
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 130px;
+}
+
+.caracteristicas{
+    margin-top: 1.5rem;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.caracteristicas ol{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+
+*/
+
+.teste{
+    display: flex;
+    flex-direction: column;
+}
+.teste img{
+    align-self: center;
+}
+
+.modal{
+   display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btnVoltar img{
+    height: 15px;
+    width: 15px;
+    align-items: left;
+    margin: .5rem ;
+    padding: 0;
+}
+
+.pokemonModal{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    height: 89.5%;
+    width: 100%;
+}
+
+.infoPokemon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0rem 0rem 4rem 0rem;
+}
+
+.infoPokemon .nameTypePokemon{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.infoPokemon .nameTypePokemon .name{
+    text-transform: capitalize;
+    color: white;
+
+    font-size: 1.5rem;
+
+    padding: 0;
+}
+
+.infoPokemon .nameTypePokemon .types{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.infoPokemon .nameTypePokemon .types .type{
+    color: white;
+    padding: 0.25rem .5rem;
+    margin: .25rem .1rem;
+    font-size: .8rem;
+    border-radius: 1rem;
+}
+
+.infoPokemon .number{
+    color: white;
+    letter-spacing: .1rem;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    text-align: right;
+    font-size: .8rem;
+}
+
+.tipoImg{
+    align-self: center;
+    height: 120px;
+    width: 120px;
+}
+
+.pokemonModal .img{
+    position: relative;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1cm;
+}
+
+.menu{
+    display: flex;
+    padding-top: 2.5rem;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+    padding-bottom: 2rem;
+}
+
+.menu div{
+    flex: 1;
+    text-align: center;
+    font-size: .87rem;
+    cursor: pointer;
+}
+
+.menu div:hover{
+    border-bottom: 4px solid rgb(168, 23, 173);
+}
+
+.aboutModal{
+    padding-top: 20px;
+}
+
+.aboutModal div{
+    padding-top: 15px;
+}
+
+.border{
+    border-bottom: 4px solid rgb(168, 23, 173);
+}
+
+.contentModal{
+    display: none;
+    background-color: white;
+    border-radius: 0 0 1rem 1rem;
+    flex-grow: 1;
+}
+
+#about{
+    margin-top: -2rem;
+    display: block;
+}
+
+
+.contentModal div{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 15px 0 0;
+}
+
+.contentModal div .list1{
+    padding-inline-start: 0;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-transform: capitalize;
+}
+
+.contentModal div .list2{
+    padding-inline-start: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contentModal div ul {
+   padding-inline-start: 0;
+   margin-block-end: 0;
+   margin-block-start: 0;
+   flex-grow: 1.2;
+   flex-basis: 0;
+ }
+
+.contentModal div ul li{
+    list-style: none;
+    font-size: .75rem;
+}
+
+.contentModal div ul li span{
+    font-size: .75rem;
+    letter-spacing: .05rem;
+    color: rgb(145, 147, 151);
+}
+
+.contentModal div ul .bar{
+    background-color: rgba(165, 160, 160, 0.644);
+    border-radius: 15px;
+    width: 100%;
+    height: 50%;
+}
+
+.contentModal div ul .bar div{
+    background-color: rgb(168, 23, 173);
+    margin: 0;
+    border-radius: 15px;
+    width: 45%;
+    height: 100%;
+}
+
+#moves div{
+    margin-top: -2rem;
+}
+
+#moves p{
+    margin-top: -.3rem;
+}
+
+.contentModal div p span{
+    list-style: none;
+    font-size: .75rem;
+    text-transform: capitalize;
+}
+
+.modal-content {
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    max-width: 330px;
+    height: 97vh;
+ }
+ 
+ .fechar {
+    color: rgba(255, 255, 255, 0.836);
+    float: left;
+    font-size: 22px;
+    cursor: pointer;
+ }
+ 
+ .fechar:hover,
+ .fechar:focus {
+    color: rgba(0, 0, 0, 0.603);
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+.list2 li{
+    text-transform: capitalize;
+}
+
+.caracteristicas ol{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+
