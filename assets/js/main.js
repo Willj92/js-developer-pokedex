@@ -36,7 +36,7 @@ function convertPokemonToModal(pokemon){
     return `
         <div class="modal-content ${pokemon.type}Modal">
             <header class="btnVoltar">
-                <img id="fecharModal" class="fechar" src="/assets/img/arrow.png" alt="Seta para voltar a página">
+                <img id="fecharModal" class="fechar" src="./assets/img/arrow.png" alt="Seta para voltar a página">
             </header>
         
             <div class="pokemonModal">
