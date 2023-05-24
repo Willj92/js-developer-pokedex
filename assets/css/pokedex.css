@@ -16,7 +16,7 @@
 }
 .normalModal{
     background-color:  #d2d690;
-    background-image: url(../assets/img/normal.png);
+    background-image: url(../img/normal.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -27,14 +27,14 @@
 
 .grass {
     background-color:  #3fc271;
-    background-image: url(./assets/img/grass.png);
+    background-image: url(../img/grass.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .grassModal{
     background-color:  #3fc271;
-    background-image: url(./assets/img/grass.png);
+    background-image: url(../img/grass.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -45,14 +45,14 @@
 
 .fire {
     background-color:  #e66633;
-    background-image: url(./assets/img/fire.png);
+    background-image: url(../img/fire.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .fireModal{
     background-color:  #e66633;
-    background-image: url(./assets/img/fire.png);
+    background-image: url(../img/fire.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -63,14 +63,14 @@
 
 .water {
     background-color:  #5495e9;
-    background-image: url(./assets/img/water.png);
+    background-image: url(../img/water.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .waterModal{
     background-color:  #5495e9;
-    background-image: url(./assets/img/water.png);
+    background-image: url(../img/water.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -81,14 +81,14 @@
 
 .electric {
     background-color:  #ffdb39;
-    background-image: url(./assets/img/electric.png);
+    background-image: url(../img/electric.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .electricModal{
     background-color:  #ffdb39;
-    background-image: url(./assets/img/electric.png);
+    background-image: url(../img/electric.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -99,14 +99,14 @@
 
 .ice {
     background-color:  #b0eef0;
-    background-image: url(./assets/img/ice.png);
+    background-image: url(../img/ice.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .iceModal{
     background-color:  #b0eef0;
-    background-image: url(./assets/img/ice.png);
+    background-image: url(../img/ice.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -117,14 +117,14 @@
 
 .ground {
     background-color:  #cea432;
-    background-image: url(./assets/img/ground.png);
+    background-image: url(../img/ground.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .groundModal{
     background-color:  #cea432;
-    background-image: url(./assets/img/ground.png);
+    background-image: url(../img/ground.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -135,14 +135,14 @@
 
 .flying {
     background-color:  #8f72e0;
-    background-image: url(./assets/img/flying.png);
+    background-image: url(../img/flying.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .flyingModal{
     background-color:  #8f72e0;
-    background-image: url(./assets/img/flying.png);
+    background-image: url(../img/flying.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -153,14 +153,14 @@
 
 .poison {
     background-color:  #A040A0;
-    background-image: url(./assets/img/poison.png);
+    background-image: url(../img/poison.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .poisonModal{
     background-color:  #A040A0;
-    background-image: url(./assets/img/poison.png);
+    background-image: url(../img/poison.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -171,14 +171,14 @@
 
 .fighting {
     background-color:  #991d17;
-    background-image: url(./assets/img/fighting.png);
+    background-image: url(../img/fighting.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .fightingModal{
     background-color:  #991d17;
-    background-image: url(./assets/img/fighting.png);
+    background-image: url(../img/fighting.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -189,14 +189,14 @@
 
 .psychic {
     background-color:  #F65687;
-    background-image: url(./assets/img/psychic.png);
+    background-image: url(../img/psychic.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .psychicModal{
     background-color:  #F65687;
-    background-image: url(./assets/img/psychic.png);
+    background-image: url(../img/psychic.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -207,14 +207,14 @@
 
 .dark {
     background-color:  #4e4137;
-    background-image: url(./assets/img/dark.png);
+    background-image: url(../img/dark.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .darkModal{
     background-color:  #4e4137;
-    background-image: url(./assets/img/dark.png);
+    background-image: url(../img/dark.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -225,14 +225,14 @@
 
 .rock {
     background-color:  #705f15;
-    background-image: url(./assets/img/rock.png);
+    background-image: url(../img/rock.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .rockModal{
     background-color:  #705f15;
-    background-image: url(./assets/img/rock.png);
+    background-image: url(../img/rock.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -243,14 +243,14 @@
 
 .bug {
     background-color:  #56832d;
-    background-image: url(./assets/img/bug.png);
+    background-image: url(../img/bug.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .bugModal{
     background-color:  #56832d;
-    background-image: url(./assets/img/bug.png);
+    background-image: url(../img/bug.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -261,14 +261,14 @@
 
 .ghost {
     background-color:  #6E5896;
-    background-image: url(./assets/img/ghost.png);
+    background-image: url(../img/ghost.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .ghostModal{
     background-color:  #6E5896;
-    background-image: url(./assets/img/ghost.png);
+    background-image: url(../img/ghost.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -279,14 +279,14 @@
 
 .steel {
     background-color:  #d7d5ec;
-    background-image: url(./assets/img/steel.png);
+    background-image: url(../img/steel.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .steelModal{
     background-color:  #d7d5ec;
-    background-image: url(./assets/img/steel.png);
+    background-image: url(../img/steel.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -297,14 +297,14 @@
 
 .dragon {
     background-color:  #4f27b6;
-    background-image: url(./assets/img/dragon.png);
+    background-image: url(../img/dragon.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .dragonModal{
     background-color:  #4f27b6;
-    background-image: url(./assets/img/dragon.png);
+    background-image: url(../img/dragon.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
@@ -315,14 +315,14 @@
 
 .fairy {
     background-color:  #f5b6cb;
-    background-image: url(./assets/img/fairy.png);
+    background-image: url(../img/fairy.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
 }
 .fairyModal{
     background-color:  #f5b6cb;
-    background-image: url(./assets/img/fairy.png);
+    background-image: url(../img/fairy.png);
     background-repeat: no-repeat;
     background-size: 130%;
     background-position-x: center;
